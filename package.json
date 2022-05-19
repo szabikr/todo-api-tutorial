@@ -1,0 +1,32 @@
+{
+  "name": "todo-api-tutorial",
+  "version": "0.0.1",
+  "description": "Tutorial for using Node Express to create a REST API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szabikr/todo-api-tutorial.git"
+  },
+  "keywords": [
+    "tutorial",
+    "node",
+    "express",
+    "todo"
+  ],
+  "author": "szabikr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szabikr/todo-api-tutorial/issues"
+  },
+  "homepage": "https://github.com/szabikr/todo-api-tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
